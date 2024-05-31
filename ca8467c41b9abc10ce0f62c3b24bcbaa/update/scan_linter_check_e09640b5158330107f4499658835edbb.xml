@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="scan_linter_check">
     <scan_linter_check action="INSERT_OR_UPDATE">
         <active>true</active>
+        <attributes/>
         <category>manageability</category>
         <description>Hard coding instance URL is not a best practice as they reduce the usability of your code. The URL remains static and it does not change when you move the code to a different instance or it can get overwritten during clone backs. This can break the related functionalities or create unexpected results</description>
         <documentation_url/>
@@ -28,11 +29,13 @@ For client side scripts, you can either access the URL via scractpad from server
         <sys_class_name>scan_linter_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-07 13:38:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e09640b5158330107f4499658835edbb</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Hard coded Instance URL</sys_name>
         <sys_package display_value="Example Instance Checks" source="x_appe_exa_checks">ca8467c41b9abc10ce0f62c3b24bcbaa</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Example Instance Checks">ca8467c41b9abc10ce0f62c3b24bcbaa</sys_scope>
         <sys_update_name>scan_linter_check_e09640b5158330107f4499658835edbb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

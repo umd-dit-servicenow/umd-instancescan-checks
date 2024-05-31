@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="scan_linter_check">
     <scan_linter_check action="INSERT_OR_UPDATE">
         <active>true</active>
+        <attributes/>
         <category>upgradability</category>
         <description>Good naming convention and self-descriptive code contain "new" to define GlideRecord. In some versions or for some parts of the Platform leaving "new" off will work, though for other parts of the Platform or after upgrades this can cause unexpected behavior.
 </description>
@@ -28,11 +29,13 @@
         <sys_class_name>scan_linter_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-08 17:05:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f7cb61672f561110a1803e0ef699b618</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Call GlideRecord using new</sys_name>
         <sys_package display_value="Example Instance Checks" source="x_appe_exa_checks">ca8467c41b9abc10ce0f62c3b24bcbaa</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Example Instance Checks">ca8467c41b9abc10ce0f62c3b24bcbaa</sys_scope>
         <sys_update_name>scan_linter_check_f7cb61672f561110a1803e0ef699b618</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

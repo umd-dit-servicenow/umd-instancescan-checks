@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="scan_script_only_check">
     <scan_script_only_check action="INSERT_OR_UPDATE">
         <active>true</active>
+        <attributes/>
         <category>security</category>
         <description>EDM ( Employee Document Management) Module table as part of HRSD contains sensitive employee files e.g offer letters, term letters, promotion letter etc . This data should not be cloned from production to sub production instances since sub prod may have many admins which can see this data which will cause security issues.</description>
         <documentation_url>/api/now/v1/context_doc_url/CSHelp:exclude-table</documentation_url>
@@ -36,11 +37,16 @@
         <sys_class_name>scan_script_only_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-12 15:36:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>63ddf5782f6691104f07a1fef699b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>EDM table doesn't have clone exclusion on Prod</sys_name>
         <sys_package display_value="Example Instance Checks" source="x_appe_exa_checks">ca8467c41b9abc10ce0f62c3b24bcbaa</sys_package>
         <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Example Instance Checks">ca8467c41b9abc10ce0f62c3b24bcbaa</sys_scope>
         <sys_update_name>scan_script_only_check_63ddf5782f6691104f07a1fef699b624</sys_update_name>
+        <sys_updated_by>mlianska</sys_updated_by>
+        <sys_updated_on>2022-12-22 07:39:18</sys_updated_on>
     </scan_script_only_check>
 </record_update>
