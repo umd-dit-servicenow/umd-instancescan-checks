@@ -45,11 +45,13 @@ var id = current.getValue('caller_id'); </resolution_details>
         <sys_class_name>scan_linter_check</sys_class_name>
         <sys_created_by>nia.mccash</sys_created_by>
         <sys_created_on>2021-10-09 17:47:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>22a19fd62f4778105dcb59ab2799b6e5</sys_id>
         <sys_mod_count>18</sys_mod_count>
         <sys_name>Avoid Dot-Walking to the sys_id of a Reference Field</sys_name>
         <sys_package display_value="Example Instance Checks" source="x_appe_exa_checks">ca8467c41b9abc10ce0f62c3b24bcbaa</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Example Instance Checks">ca8467c41b9abc10ce0f62c3b24bcbaa</sys_scope>
         <sys_update_name>scan_linter_check_22a19fd62f4778105dcb59ab2799b6e5</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
