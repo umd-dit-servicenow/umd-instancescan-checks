@@ -16,7 +16,6 @@
         <logo/>
         <menu/>
         <name>Example Instance Checks</name>
-        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking/>
